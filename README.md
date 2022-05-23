@@ -181,7 +181,7 @@ d. Use SparkSQL to perform EDA of the same business problems.
 
 e. Perform proper visualisation.
 
-**SPARKML MODEL BUILDING **
+ **SPARKML MODEL BUILDING **
 
 a. Import all the required libraries in Jupyter Labs 
 
