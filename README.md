@@ -27,27 +27,27 @@ As a part of technology stack you are required to work on below technology Stack
 
 # DATA DESCRIPTION
 
-# Titles (titles.csv)
+**Titles (titles.csv)**
 
 This data contains title id and title
 
-# Employees (employees.csv)
+**Employees (employees.csv)**
 
 This data contains Employee Id,designation id, Date of Birth,First Name,Last Name,Gender,Employee Hire date,Number of projects worked on, Last year performance rating ,Employee left the organization,Last date of employment (Exit Date) 
 
-# Salaries (salaries.csv)
+**Salaries (salaries.csv)**
 
 This data contains Employee id,Employee’s Salary
 
-# Departments (departments.csv)
+**Departments (departments.csv)**
 
 This data contains Unique id for each department,Department Name
 
-# Department Managers (dept_manager.csv) 
+**Department Managers (dept_manager.csv) **
 
 This data contains Unique id for each department ,Employee number (head of the department )
 
-# Department Employees (dept_emp.csv)
+**Department Employees (dept_emp.csv)**
 
 This data contains Employee id,Unique id for each department
 
@@ -143,7 +143,7 @@ sqoop import --connect jdbc:mysql://ip-10-1-1-204.ap-south-1.compute.internal:33
 
 # ARCHITECTURE OF PIPELINE
 
-## DATABASE CREATION: 
+**DATABASE CREATION: **
 a. Connecting to Linux terminal to access MySQL server for database creation. 
 
 b. In the database create 6 table corresponding to the files, with proper schema.
@@ -152,7 +152,7 @@ c. Upload the data into the HDFS FTP
 
 d. Load the data into the table using appropriate delimiter.
 
-## DATA AND SCHEMA TRANSFER TO HDFS AND HIVE 
+**DATA AND SCHEMA TRANSFER TO HDFS AND HIVE **
 
 a. Select a compressed file format (AVRO) for the data to be transferred. 
 
@@ -160,7 +160,7 @@ b. Use Sqoop command to transfer all table data to a specified location into HDF
 
 c. In Linux shell, transfer the .avsc schema file to another specified HDFS directory.
 
-## HIVE DATABASE AND TABLE CREATION
+**HIVE DATABASE AND TABLE CREATION**
 
 a. Create a database and external table for the table data imported. 
 
@@ -168,7 +168,7 @@ b. Load the data into external table using appropriate path and SerDes.
 
 c. Create views from the tables for specified purposes.
 
-## 	HIVE AND SPARKSQL EXPLORATORY DATA ANALYSIS  
+**HIVE AND SPARKSQL EXPLORATORY DATA ANALYSIS  **
 
 a. Use a database.
 
