@@ -144,6 +144,7 @@ sqoop import --connect jdbc:mysql://ip-10-1-1-204.ap-south-1.compute.internal:33
 # ARCHITECTURE OF PIPELINE
 
 **DATABASE CREATION: **
+
 a. Connecting to Linux terminal to access MySQL server for database creation. 
 
 b. In the database create 6 table corresponding to the files, with proper schema.
@@ -152,7 +153,7 @@ c. Upload the data into the HDFS FTP
 
 d. Load the data into the table using appropriate delimiter.
 
-**DATA AND SCHEMA TRANSFER TO HDFS AND HIVE **
+**DATA AND SCHEMA TRANSFER TO HDFS AND HIVE**
 
 a. Select a compressed file format (AVRO) for the data to be transferred. 
 
@@ -168,7 +169,7 @@ b. Load the data into external table using appropriate path and SerDes.
 
 c. Create views from the tables for specified purposes.
 
-**HIVE AND SPARKSQL EXPLORATORY DATA ANALYSIS  **
+**HIVE AND SPARKSQL EXPLORATORY DATA ANALYSIS**
 
 a. Use a database.
 
@@ -180,7 +181,7 @@ d. Use SparkSQL to perform EDA of the same business problems.
 
 e. Perform proper visualisation.
 
-## 	SPARKML MODEL BUILDING 
+**SPARKML MODEL BUILDING **
 
 a. Import all the required libraries in Jupyter Labs 
 
